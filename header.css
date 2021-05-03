@@ -1,0 +1,92 @@
+header {
+    background-color:var(--main-theme);
+    font-size: 24px;
+}
+
+.nav--div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav--logo{
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 20px 0;
+    margin-left: 5%;
+
+}
+
+/* .nav--logo i{
+    padding-right: 10px;
+} */
+
+/* .nav-menu{
+    border: 2px solid black;
+    margin-left: 400px;
+
+} */
+
+.nav-menu ul{
+    padding: 0;
+    margin: 0;
+}
+
+/* .nav-menu li{
+    height: 100%;
+    display: inline-block;
+    padding:32px 20px;
+    display: table-cell;
+    font-size: 26px;
+} */
+
+.nav-menu .blue:hover {
+    background-color: lightskyblue;
+}
+
+.nav-menu .red:hover {
+    background-color: rgb(236, 69, 69);
+}
+
+.nav-menu .yellow:hover {
+    background-color: rgb(236, 197, 69);
+}
+
+.nav-menu .green:hover {
+    background-color: rgb(74, 236, 69);
+}
+
+.nav-menu .purple:hover {
+    background-color: rgb(113, 69, 236);
+}
+
+/* ---------------MOBILE------------------------------ */
+
+.nav-menu{
+    position: absolute;
+    top: 74px;
+    right: 2%;
+    display: none;
+}
+
+.nav--hamburger{
+    margin: 15px 5% 15px 0;
+}
+
+.nav--hamburger i{
+    padding: 10px;
+    background-color: white;
+}
+
+.nav--hamburger:hover .nav-menu{
+    display: block;
+}
+
+.nav-menu ul{
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-menu li{
+    padding:15px 25px;
+    font-size: 20px;
+}
