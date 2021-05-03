@@ -57,6 +57,7 @@ header {
     top: 74px;
     right: 2%;
     display: none;
+    z-index: 1;
 }
 
 .nav--hamburger{
@@ -74,7 +75,7 @@ header {
 
 .nav-menu ul{
     list-style: none;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .nav-menu li{
@@ -99,7 +100,7 @@ header {
     .nav-menu li{
     height: 100%;
     display: inline-block;
-    padding:22px 20px;
+    padding:23px 20px;
     display: table-cell;
     }
 
