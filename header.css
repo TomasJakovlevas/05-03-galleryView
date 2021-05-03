@@ -19,6 +19,17 @@ header {
     margin: 0;
 }
 
+.nav-menu a:link{
+    color: black;
+}
+
+.nav-menu a:visited{
+    color: black;
+}
+
+.nav-menu a{
+    text-decoration: none;
+}
 .nav-menu .blue:hover {
     background-color: lightskyblue;
 }
