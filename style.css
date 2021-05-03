@@ -1,8 +1,20 @@
 * {
     box-sizing: border-box;
+    transition: 500ms;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 :root{
 
     --main-theme:  rgb(223, 243, 255);
+    --footer-theme:  rgb(182, 211, 229);
+
     
+}
+
+/* ----------------FOOTER------------------------- */
+
+footer{
+    background-color: rgb(112, 161, 192) ;
+    padding:20px 0;
+    text-align: center;
 }

@@ -1,0 +1,35 @@
+.social{
+    height: 80px;
+    background-color: var(--footer-theme);
+}
+
+.social-div{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-div i{
+    text-align: center;
+    margin: auto 5px;
+    padding: 10px 0;
+    width: 45px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.social-div a:visited{
+    color: black;
+}
+
+.social-div a:link{
+    color: black;
+}
+
+@media screen and (min-width:480px) {
+    .social-div i{
+        margin: auto 15px;
+    }
+}
